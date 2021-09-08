@@ -1,14 +1,14 @@
 [
     {
-        "firstname":"Fred",
-        "link":"https://www.santarosa.edu"
+        "firstname":"Door Dash",
+        "link":"https://www.doordash.com/"
     },
     {
-        "firstname":"Jane",
-        "link":"https://www.apple.com"
+        "firstname":"Grub Hub",
+        "link":"https://www.grubhub.com/"
     },
     {
-        "firstname":"Mary",
-        "link":"https://www.w3schools.com"
+        "firstname":"Uber Eats",
+        "link":"https://www.ubereats.com/"
     }
 ]

@@ -35,9 +35,9 @@
   <script type="text/babel">
   "use strict";
 
-  // define a react page component (some JSX that will get react to make html elements
+  // we want to define a react page component (some JSX that will get react to create html elements
   // in the view (html output) based on the data it receives from the model (json)
-    function ProjectList(props) {
+    function DeliveryList(props) {
       // return some output for the component using JSX
       return <div>
           <ol>
@@ -63,7 +63,7 @@
     // after JSON loaded, call react render() to output component into existing element
     // render() takes 2 arguments: (1) JSX component, (2) the html element to render into
     ReactDOM.render(
-      <ProjectList list={jsonFromJquery} />,
+      <DeliveryList list={jsonFromJquery} />,
       document.getElementById("myApp")
     );
   }
